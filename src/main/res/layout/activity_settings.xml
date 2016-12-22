@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.arunsoorya.crashloggerExample.com.arunsoorya.crashlogger.SettingsActivity">
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        tools:context="com.arunsoorya.crashloggerExample.com.arunsoorya.crashlogger.SettingsActivity">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/container"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_width="match_parent"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
